@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.customList{
+    font-size: 25px;
+    margin: 5px;
+    text-transform: capitalize;
+    transition: all .25s;
+}   
+
+.customList:hover{
+    transform: scale(1.1);
+ }
+
+ #warning-custom{
+    position: absolute;
+    border-radius: 5px;
+    padding: 2.5px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40%;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+ }
+
+
+ .custom-tooltip{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: -33%;
+    bottom: 110%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+ }
+
+ .custom-tooltip::after{
+    content: "\f04b"; 
+    font-family: FontAwesome;
+    position:absolute;
+    font-size: 47.5px;
+    z-index: -10;
+    right:-23px;
+    top:-31%;
+    color: black;
+ }
+
+ #btnAdd:hover .custom-tooltip {
+    opacity: 1;
+    visibility: visible;
+ }
