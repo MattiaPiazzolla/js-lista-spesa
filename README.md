@@ -5,10 +5,11 @@ Consigli: Come posso ciclare su un array con il ciclo while?
 SCOMPOSIZIONE IN SOTTOPROBLEMI
 >Definisco un'array 
     >>Inserisco nell'arrai una lista della spesa
+>recupero dal DOM l'elemento dove andro ad inserire la lista della spesa 
 >definisco la variabile dell'indice 
 >ciclo l'array con while 
-    >>recupero dal DOM l'elemento dove andro ad inserire la lista della spesa 
     >>per ogni elemento dell'arraY ciclato, creo un nuovo li
     >>appendo li creato nell'elemento recuperato dal DOM
+        >>>vado ad inserire gli elementi cliclati dall'array nell'elemento li creato
     >>Aumento l'indice di ++
 
