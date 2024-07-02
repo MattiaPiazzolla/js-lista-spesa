@@ -4,5 +4,7 @@ let shoppingList = ['mele', 'anguria', 'banane', 'broccoli', 'pasta', 'pomodori'
 let i = 0;
 // DEFINISCO IL CICLO WHILE
 while (i < shoppingList.length){
+    // RECUPERO LA UL DAL DOM PER POI ANDARCI AD INSERIRE GLI ELEMENTI LI CHE ANDRÒ A CREARE
+    const listDestination = document.getElementById('list');
     
 }
