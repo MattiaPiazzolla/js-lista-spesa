@@ -6,5 +6,9 @@ let i = 0;
 while (i < shoppingList.length){
     // RECUPERO LA UL DAL DOM PER POI ANDARCI AD INSERIRE GLI ELEMENTI LI CHE ANDRÒ A CREARE
     const listDestination = document.getElementById('list');
+    // DEFINISCO UN NUOVO ELEMENTO PER OGNI ELEMENTO DELL'ARRAY CICLATO
+    const liElement = document.createElement('li');
     
+    listDestination.append(liElement);
+    i ++
 }

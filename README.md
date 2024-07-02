@@ -8,7 +8,7 @@ SCOMPOSIZIONE IN SOTTOPROBLEMI
 >definisco la variabile dell'indice 
 >ciclo l'array con while 
     >>recupero dal DOM l'elemento dove andro ad inserire la lista della spesa 
-    >>per ogni elemento dell'arrai ciclato, creo un nuovo li
+    >>per ogni elemento dell'arraY ciclato, creo un nuovo li
     >>appendo li creato nell'elemento recuperato dal DOM
     >>Aumento l'indice di ++
 
