@@ -10,7 +10,7 @@ while (i < shoppingList.length){
     const liElement = document.createElement('li');
     // AGGIUNGO IL CONTENUTO TESTUALE AGLI ELEMENTI LI CREATI 
     liElement.innerText = shoppingList[i];
-    // APPENDO GLI ELEMENTI NEL DOM
+     // APPENDO GLI ELEMENTI NEL DOM
     listDestination.append(liElement);
     // INTERROMPO IL CICLO //chiedere la definizione giusta per questo passaggio 
     i ++
